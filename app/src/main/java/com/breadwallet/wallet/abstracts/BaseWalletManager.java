@@ -270,4 +270,6 @@ public interface BaseWalletManager {
 
     String verifyMessage(byte[] data, byte[] signature);
 
+    String dumpPrivkey(byte[] script, byte[] phrase);
+
 }

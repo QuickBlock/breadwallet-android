@@ -1204,6 +1204,10 @@
     </string>
 
     <string name="wallet_address">所有地址</string>
-    <string name="copy_address">地址已复制到剪切板</string>
+    <string name="dialog_address">请选择一项操作</string>
+    <string name="toast_copy_address">地址已复制到剪切板</string>
+    <string name="toast_copy_key">私钥已复制到剪切板</string>
+    <string name="copy_address">复制地址</string>
+    <string name="dump_key">导出私钥</string>
 
 </resources>

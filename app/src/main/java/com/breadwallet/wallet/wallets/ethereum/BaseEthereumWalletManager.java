@@ -153,4 +153,9 @@ public abstract class BaseEthereumWalletManager implements BaseWalletManager {
     public String verifyMessage(byte[] data, byte[] signature) {
         return null;
     }
+
+    @Override
+    public String dumpPrivkey(byte[] script, byte[] phrase) {
+        return "";
+    }
 }

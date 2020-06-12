@@ -1259,6 +1259,10 @@
     </string>
 
     <string name="wallet_address">Addresses</string>
-    <string name="copy_address">Address copied to clipboard</string>
+    <string name="dialog_address">Address or PrivateKey?</string>
+    <string name="toast_copy_address">Address copied to clipboard</string>
+    <string name="toast_copy_key">PrivateKey copied to clipboard</string>
+    <string name="copy_address">Copy Address</string>
+    <string name="dump_key">Dump PrivateKey</string>
 
 </resources>
