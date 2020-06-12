@@ -113,6 +113,12 @@ public class CidDetailActivity extends BRActivity {
                 startActivity(i);
             }
         });
+        findViewById(R.id.close_button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
 
         new TxHistoryTask(this, mCid.getAddress(), mPage).execute();
     }
